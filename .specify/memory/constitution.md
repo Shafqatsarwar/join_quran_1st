@@ -1,55 +1,70 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+<!--
+Sync Impact Report:
+- Version change: 1.0.0 → 1.1.0
+- Summary: The constitution has been completely rewritten to be more detailed and structured. It now includes a clear Mission & Vision, Core Values, and a detailed Scope & Features section.
+- Templates requiring updates:
+  - ✅ .specify/templates/plan-template.md
+- Follow-up TODOs: None
+-->
+# Join Quran – Website Project Constitution
+> Version: 1.1.0
+> Date: 2025-11-10
+> Python version: 3.13
 
-## Core Principles
+## 1. Mission & Vision
+**Mission:**
+To empower learners of all ages (children, youth, adults) around the world to connect deeply with the Holy Qur’an — through correct recitation (Tajweed), Qirāʾah, memorization (Ḥifẓ), and understanding — by leveraging modern technology, quality tutors, and AI-enabled support.
+**Vision:**
+A world where every learner— regardless of location or age — can access personalized, interactive Qur’anic learning, making the Qur’an alive in their life and practice.
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+## 2. Core Values
+- Authenticity: Upholding the rules of Tajweed, Qirāʾah and classical recitation traditions.
+- Accessibility: Learning available for all ages, flexible scheduling, online global reach.
+- Excellence: Qualified tutors, interactive tools, responsive UI/UX.
+- Innovation: Leveraging AI & modern web frameworks to enhance learning and engagement.
+- Integrity: Transparent in pricing, respectful of students’ needs, maintaining high standards.
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
-
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
-
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
-
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
-
-### [PRINCIPLE_6_NAME]
-
-
-[PRINCIPLE__DESCRIPTION]
-
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
-
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
-
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
-
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
-
-## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
-
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
-
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+## 3. Scope & Features
+### 3.1 Target Audience
+- Kids (age ~4+)
+- Teens and Young Adults
+- Adults and Seniors (lifelong learners)
+- Tutors & Administrators
+### 3.2 Primary Features
+- Course catalogue (Tajweed, reading, memorization, tafsīr)
+- Tutor profiles (male/female, multilingual)
+- Online scheduling & live sessions
+- Learner dashboards: progress tracking, recitation feedback
+- AI-Agent support: e.g., chatbot for questions, automated recitation feedback using speech recognition
+- APIs/endpoints for tutor and student management
+- Admin panel: course management, user management, payments & billing
+- Responsive web UI (mobile + desktop)
+### 3.3 Technology Stack
+- Backend: Python 3.13 (minimum)
+- Web Framework: e.g., FastAPI (or Flask + FastAPI hybrid)
+- ASGI server: e.g., Uvicorn (to be initialised via `uv init`)
+- AI/Agent SDK: e.g., OpenAI Agent SDK
+- Database: Local PostgreSQL in future
+- Frontend: React + TailwindCSS for UI
+- Deployment: vercel and local server first
+- CI/CD: GitHub Actions or GitLab CI
+### 3.4 Dependencies & Packages
+Example list (to be expanded):
+```text
+python>=3.13,<4.0
+fastapi
+uvicorn
+openai-agent-sdk  # placeholder name — exact package name to confirm
+sqlalchemy
+asyncpg
+pydantic
+redis
+alembic
+jinja2
+aiohttp
+rich
+readchar
+platformdirs
+httpx
+typer
+```
