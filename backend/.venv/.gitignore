@@ -1,0 +1,12 @@
+.env*
+.env.local
+.env.development.local
+.env.test.local
+.env.frontend
+.env.backend
+.env.production.local
+
+node_modules/
+logs/
+*.log
+.next/
