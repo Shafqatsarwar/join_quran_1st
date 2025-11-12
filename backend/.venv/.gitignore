@@ -5,6 +5,8 @@
 .env.frontend
 .env.backend
 .env.production.local
+.env/
+.env
 
 node_modules/
 logs/
