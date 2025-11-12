@@ -1,14 +1,27 @@
 <!--
 Sync Impact Report:
-- Version change: 1.0.0 → 1.1.0
-- Summary: The constitution has been completely rewritten to be more detailed and structured. It now includes a clear Mission & Vision, Core Values, and a detailed Scope & Features section.
+- Version change: 1.1.0 → 1.1.1
+- Summary: Updated version and date. No placeholders were found in the existing constitution.
 - Templates requiring updates:
   - ✅ .specify/templates/plan-template.md
+  - ✅ .specify/templates/spec-template.md
+  - ✅ .specify/templates/tasks-template.md
+  - ✅ .gemini/commands/sp.adr.toml
+  - ✅ .gemini/commands/sp.analyze.toml
+  - ✅ .gemini/commands/sp.checklist.toml
+  - ✅ .gemini/commands/sp.clarify.toml
+  - ✅ .gemini/commands/sp.constitution.toml
+  - ✅ .gemini/commands/sp.git.commit_pr.toml
+  - ✅ .gemini/commands/sp.implement.toml
+  - ✅ .gemini/commands/sp.phr.toml
+  - ✅ .gemini/commands/sp.plan.toml
+  - ✅ .gemini/commands/sp.specify.toml
+  - ✅ .gemini/commands/sp.tasks.toml
 - Follow-up TODOs: None
 -->
 # Join Quran – Website Project Constitution
-> Version: 1.1.0
-> Date: 2025-11-10
+> Version: 1.1.1
+> Date: 2025-11-11
 > Python version: 3.13
 
 ## 1. Mission & Vision

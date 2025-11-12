@@ -4,4 +4,20 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    # "openai-agent-sdk", # placeholder name — exact package name to confirm
+    "sqlalchemy",
+    "asyncpg",
+    "pydantic",
+    "redis",
+    "alembic",
+    "jinja2",
+    "aiohttp",
+    "rich",
+    "readchar",
+    "platformdirs",
+    "httpx",
+    "typer",
+]
