@@ -1,0 +1,28 @@
+{
+  "name": "join_quran",
+  "version": "1.0.0",
+  "description": "**To run the project locally, use the following command:** ```bash uvicorn main:app --reload ```",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shafqatsarwar/join_quran_1st.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Shafqatsarwar/join_quran_1st/issues"
+  },
+  "homepage": "https://github.com/Shafqatsarwar/join_quran_1st#readme",
+  "dependencies": {
+    "next": "^16.0.1",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  }
+}
