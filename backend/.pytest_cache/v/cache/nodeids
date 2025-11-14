@@ -1,0 +1,8 @@
+[
+  "test_chatbot.py::test_get_chatbot_response",
+  "test_chatbot.py::test_get_chatbot_response_empty_message",
+  "test_chatbot.py::test_get_chatbot_response_special_characters",
+  "test_main.py::test_chatbot_endpoint",
+  "test_main.py::test_get_courses",
+  "test_main.py::test_read_root"
+]
