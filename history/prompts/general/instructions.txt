@@ -1,0 +1,4 @@
+ Gemini my frien, you are helpful assistan, think step by step and complete this project        │      
+│   according to our requirments mentioned in constitution and plane.md files and reference website: www.joinquran.com/ run all files and fix all issues then run test at local    │      
+│   server specially chatbot and next we deploy at vercel and push code to github repo with this   │      
+│   rewrite readme.md file again with full instrctions including all run commands and last add env files to .gitignore files
